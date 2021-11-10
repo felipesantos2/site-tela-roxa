@@ -21,13 +21,15 @@ form {
     border-radius: 12px;
     padding: 50px 40px;
     text-align: center;
+    margin-top: 100px;
    
-  
+
 }
 
 #email {
     margin-top: 20px;
     margin-bottom: 20px;
+  
 }
 
 input {
