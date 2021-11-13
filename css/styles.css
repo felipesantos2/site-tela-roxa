@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Yuji Boku',serif;
 
 }
 
@@ -22,8 +23,6 @@ form {
     padding: 50px 40px;
     text-align: center;
     margin-top: 100px;
-   
-
 }
 
 #email {
@@ -38,7 +37,52 @@ input {
     height: 50px;
     border-radius: 10px;
     border: none;
+    border-bottom:2px solid #e5e5e5;
 }
+
+label{
+    color: cadetblue;
+}
+/* botão */
+
+#submit {
+    margin-top: 35px;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#submit:hover{
+    color:rgb(185, 226, 228);
+    background-color: cornflowerblue;
+    cursor: pointer;
+    opacity: 0.8;
+}
+/* nav-section */
+
+ .nav-section li{
+
+    display: inline-block;
+    float: right;
+    margin: 10px;
+    color: white;
+}
+
+ .nav-section li:hover{
+     color: #e5e5e5;
+     transition: 0.2s;
+
+ }
+ .nav-section {
+     height: 60px;
+     width: 100%;
+     background: cornflowerblue;
+     border-radius: 20px;
+     /* padding-top: 10px; */
+     margin-top: 50px;
+ }
+    
+
 
    
     
